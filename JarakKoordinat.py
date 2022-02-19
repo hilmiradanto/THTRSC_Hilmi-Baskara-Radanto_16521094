@@ -13,4 +13,4 @@ x2, y2, z2 = [int(x) for x in input("Masukkan koordinat akhir: ").split(", ")] #
 jarak = ((x2-x1)**2 + (y2-y1)**2 + (z2-z1)**2)**0.5     # menghitung jarak dengan rumus matematika
                                                         # ((x2-x1)**2 + (y2-y1)**2 + (z2-z1)**2)**0.5
 
-print("%.2f" % jarak) # mengeluarkan output koordinat akhir dengan maksimal 2 digit desimal
+print("%.2f" % jarak) # mengeluarkan output jarak dengan maksimal 2 digit desimal
